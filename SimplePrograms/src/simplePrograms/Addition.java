@@ -1,5 +1,5 @@
 package simplePrograms;
-import java.util.*;
+import java.util.Scanner;
 
 public class Addition {
 
@@ -11,6 +11,7 @@ public class Addition {
 		a= scan.nextInt();
 		System.out.println("Enter 2nd Number: ");
 		b= scan.nextInt();
+		scan.close();
 		c= a+b;
 		System.out.println("Result = " + c);
 	}
